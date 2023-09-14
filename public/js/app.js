@@ -1,5 +1,3 @@
-console.log('Client side JS file is Loaded')
-
 const fetching = (addr = '', one, two) => {
     fetch('http://localhost:3000/weather?address='+addr).then((response) => {
     response.json().then((data) => {
